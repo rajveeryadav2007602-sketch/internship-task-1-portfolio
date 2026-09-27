@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f4">
+  <meta name="description" content="A personal portfolio with an introduction, skills, selected projects, resume, and contact information.">
+  <title>[Your Name] — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="Home"><span class="logo-shape">N</span><span>[YOUR NAME]<i>.</i></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
+    <nav class="navigation" id="navigation" aria-label="Main navigation"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#resume">Resume</a><a class="nav-button" href="#contact">Contact <span>↗</span></a></nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-content"><div class="hero-topline"><span class="tiny-star">✳</span> HELLO THERE, I’M</div><h1>[Your Name]<br><em>Creative developer</em></h1><p class="hero-copy">I create thoughtful digital experiences with an eye for detail and a love for learning. Welcome to my little corner of the internet.</p><a class="primary-button" href="#projects">Explore my work <span>↓</span></a><div class="hero-foot"><span>BASED IN <b>[YOUR CITY]</b></span><span>AVAILABLE FOR OPPORTUNITIES <b class="green-dot">●</b></span></div></div>
+      <div class="hero-art" aria-label="Abstract geometric illustration"><div class="art-top">INDEPENDENT THINKER / ALWAYS LEARNING</div><div class="shape shape-square"></div><div class="shape shape-circle"></div><div class="shape shape-arch"></div><div class="shape shape-orbit"></div><span class="art-cross cross-one">✳</span><span class="art-cross cross-two">✳</span><div class="art-bottom"><span>DESIGN<br>WITH PURPOSE</span><span>01 — 05</span></div></div>
+    </section>
+
+    <section class="about wrap section" id="about"><div class="section-kicker"><span>01</span> A LITTLE ABOUT ME <i></i></div><div class="about-layout"><div class="profile-frame"><img src="profile.svg" alt="Illustrated profile photo placeholder - replace with your own photo"><span class="photo-note">YOUR PHOTO GOES HERE ↗</span></div><div class="about-copy"><h2>People first.<br><em>Pixels second.</em></h2><p>I'm a motivated learner with a growing interest in web development and design. I like understanding how things work, asking good questions, and turning ideas into useful experiences.</p><p>When I’m not building for the web, you might find me exploring new ideas, learning a new skill, or collecting inspiration from the world around me.</p><div class="about-signoff"><span class="sign-line"></span><span>CURIOUS BY NATURE<br>CREATIVE BY PRACTICE</span></div></div></div></section>
+
+    <section class="skills-section section" id="skills"><div class="wrap"><div class="section-kicker"><span>02</span> THINGS I’M LEARNING <i></i></div><div class="skills-layout"><h2>A growing<br>set of <em>tools.</em></h2><div class="skills-grid"><article><span class="skill-num">01</span><div class="skill-icon">&lt;/&gt;</div><h3>Web foundations</h3><p>HTML · CSS · Responsive design</p></article><article><span class="skill-num">02</span><div class="skill-icon">✳</div><h3>Creative thinking</h3><p>Visual layout · Typography · Detail</p></article><article><span class="skill-num">03</span><div class="skill-icon">{ }</div><h3>Interaction</h3><p>JavaScript · UI patterns · Usability</p></article><article><span class="skill-num">04</span><div class="skill-icon">↗</div><h3>Working together</h3><p>Git basics · Communication · Curiosity</p></article></div></div></div></section>
+
+    <section class="projects wrap section" id="projects"><div class="section-kicker"><span>03</span> A FEW THINGS I’VE MADE <i></i></div><div class="projects-title"><h2>Selected <em>projects.</em></h2><p>Learning by building, one idea at a time.</p></div><div class="project-grid">
+      <article class="project"><a class="project-cover cover-one" href="#contact" aria-label="Ask me about Daymark"><div class="cover-label">01 / PERSONAL PROJECT</div><div class="mock-todo"><div class="mock-head"><span class="mock-mark">✳ daymark.</span><span>☼</span></div><div class="mock-greeting">A little progress,<br><b>one task at a time.</b></div><div class="mock-input">What needs doing? <span>＋</span></div><div class="mock-row"><span class="check">✓</span> Plan the week ahead</div><div class="mock-row"><span class="check"></span> Take a proper break</div><div class="mock-row"><span class="check"></span> Make something useful</div></div><span class="cover-arrow">↗</span></a><div class="project-meta"><h3>Daymark To-do App</h3><span>2026</span></div><p>A simple, local-first task list designed to make planning feel lighter.</p><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+      <article class="project"><a class="project-cover cover-two" href="#contact" aria-label="Ask me about Fieldnotes"><div class="cover-label">02 / INTERFACE STUDY</div><div class="journal"><span>FIELDNOTES · VOL. 01</span><b>Notice<br>the <i>little</i><br>things.</b><span class="journal-foot">A SMALL DAILY JOURNAL <span>✳</span></span></div><span class="cover-arrow">↗</span></a><div class="project-meta"><h3>Fieldnotes Journal</h3><span>2026</span></div><p>A warm, uncluttered journal concept for collecting everyday thoughts.</p><div class="chips"><span>UI DESIGN</span><span>CSS</span><span>LAYOUT</span></div></article>
+      <article class="project"><a class="project-cover cover-three" href="#contact" aria-label="Ask me about Gather"><div class="cover-label">03 / WEB CONCEPT</div><div class="gather"><span>GOOD PEOPLE, GOOD PLANS</span><b>Make room<br>to <i>gather.</i></b><div><span>FIND YOUR NEXT LOCAL EVENT</span><span>→</span></div></div><span class="cover-arrow">↗</span></a><div class="project-meta"><h3>Gather Local</h3><span>2026</span></div><p>A friendly discovery page concept for finding events close to home.</p><div class="chips"><span>HTML</span><span>RESPONSIVE</span><span>ACCESSIBILITY</span></div></article>
+    </div></section>
+
+    <section class="resume-section section" id="resume"><div class="wrap resume-layout"><div><div class="section-kicker"><span>04</span> THE NEXT CHAPTER <i></i></div><h2>Good things<br>are <em>in progress.</em></h2><p>I’m currently growing my skills and looking for opportunities to learn, contribute, and make meaningful work with a supportive team.</p></div><div class="resume-card"><div class="resume-icon">↓</div><span>RESUME / STARTER TEMPLATE</span><h3>My resume</h3><p>Download the starter template and replace it with your own experience before sharing.</p><a href="resume.pdf" download class="resume-link">Download resume <span>↗</span></a></div></div></section>
+
+    <section class="contact wrap section" id="contact"><div class="section-kicker"><span>05</span> SAY HELLO <i></i></div><div class="contact-layout"><h2>Let’s make<br><em>something good.</em></h2><div class="contact-copy"><p>Have a question, an opportunity, or just want to talk about something you’re making? My inbox is open.</p><a class="email-link" href="mailto:your.email@example.com">your.email@example.com <span>↗</span></a><div class="contact-details"><span>EMAIL <b>your.email@example.com</b></span><span>PHONE <b>[Add your phone number]</b></span></div><div class="socials"><a href="https://github.com/" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN ↗</a></div></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-inner"><a class="logo" href="#home"><span class="logo-shape">N</span><span>[YOUR NAME]<i>.</i></span></a><span>© <span id="year">2026</span> [YOUR NAME]. MADE WITH CARE.</span><a class="to-top" href="#home">BACK TO TOP ↑</a></div></footer>
+</body>
+</html>

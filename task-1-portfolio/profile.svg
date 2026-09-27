@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Illustrated portrait placeholder">
+  <rect width="600" height="600" fill="#dce5e3"/>
+  <path d="M0 455c92-64 179-49 267-4s177 60 333-11v160H0z" fill="#c3d5d0"/>
+  <circle cx="438" cy="138" r="46" fill="#e3a487" opacity=".86"/>
+  <path d="M82 600c9-118 63-195 159-215l58-12 58 12c98 20 151 97 161 215z" fill="#405d66"/>
+  <path d="M220 370v-65h156v65c0 50-35 82-78 82s-78-32-78-82z" fill="#c98265"/>
+  <path d="M189 271c0-92 50-147 111-147 77 0 124 59 118 155l-8 76c-12 66-52 105-110 105-62 0-105-45-111-113z" fill="#d99777"/>
+  <path d="M186 276c-10-110 42-173 128-173 68 0 119 37 126 125l-4 57c-23-25-38-60-47-102-36 42-99 67-188 70z" fill="#243c4a"/>
+  <path d="M237 293c15-11 31-11 46-1m48 0c15-10 31-10 46 1" fill="none" stroke="#533f3b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M286 356c17 13 36 13 53 0" fill="none" stroke="#985e51" stroke-width="6" stroke-linecap="round"/>
+  <path d="M146 600c25-81 85-121 153-121s129 40 154 121" fill="#edf0e6"/>
+  <path d="m279 479 21 35 21-35 31 121h-104z" fill="#d9785f"/>
+  <rect x="24" y="24" width="552" height="552" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="2"/>
+</svg>
